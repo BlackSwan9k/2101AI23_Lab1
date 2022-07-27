@@ -35,6 +35,18 @@ int main(void)
         scanf("%ld %ld", &n1, &n2);
         printf("Product = %ld", n1*n2);
         break;
+    case 4:
+        printf("Enter Dividend (integer): ");
+        scanf("%d", &n1);
+        printf("Enter Divisor (integer): ");
+        scanf("%d", &n2);
+        if(n2 == 0){
+            printf("\nDIvision by zero not allowed.");
+            break;
+        }
+        x = n1/n2;     
+        printf("\nQuotient = %ld, Remainder = %ld", n1/n2,n1%n2);
+        break;
     }
     return 0;
 }
