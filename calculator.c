@@ -18,7 +18,6 @@ int main(void)
         printf("\nInvalid choice!! Choose again...\nChoice: ");
         scanf("%d", &opt);
     }
-    
     switch (opt){
     case 1:
         printf("Enter two integers: \n");
@@ -52,6 +51,9 @@ int main(void)
         scanf("%ld", &n1);
         printf("Square = %ld", n1*n1);
         break;
+    case 6:
+        return 0;
+    default: printf("\nError");
     }
     return 0;
 }
