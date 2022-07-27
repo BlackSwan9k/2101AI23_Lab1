@@ -173,3 +173,11 @@ void quick_sort(int arr[], int first, int last){
     }
     return;
 }
+
+void arr_print(int arr[], int n)
+{
+    for (int i = 0; i<n; i++){
+        printf("%d ", arr[i]);
+    }
+    return;
+}
