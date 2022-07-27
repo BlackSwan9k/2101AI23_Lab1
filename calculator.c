@@ -47,6 +47,11 @@ int main(void)
         x = n1/n2;     
         printf("\nQuotient = %ld, Remainder = %ld", n1/n2,n1%n2);
         break;
+    case 5:
+        printf("Enter any integer: \n");
+        scanf("%ld", &n1);
+        printf("Square = %ld", n1*n1);
+        break;
     }
     return 0;
 }
