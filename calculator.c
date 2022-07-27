@@ -18,12 +18,17 @@ int main(void)
         printf("\nInvalid choice!! Choose again...\nChoice: ");
         scanf("%d", &opt);
     }
-
+    
     switch (opt){
     case 1:
         printf("Enter two integers: \n");
         scanf("%ld %ld", &n1, &n2);
         printf("Sum = %ld", n1+n2);
+        break;
+    case 2:
+        printf("Enter two integers: \n");
+        scanf("%ld %ld", &n1, &n2);
+        printf("Subtraction = %ld", n1-n2);
         break;
     }
     return 0;
